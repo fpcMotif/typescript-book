@@ -188,3 +188,34 @@ mathematicianm = "Mark Goldberg";
 mathematicianm.length; // Ok
 
 
+
+
+// assignability
+let lastName = "King";
+lastName = true;
+
+
+
+
+let rocker; // Type: any
+
+
+// Type Annotations
+let rocker1; // Type: any
+rocker1 = "Joan Jett"; // Type: string
+rocker1.toUpperCase(); // Ok
+rocker1.length;
+rocker1.length();
+rocker1 = 19.58; // Type: number
+rocker1.toPrecision(1); // Ok
+rocker1.toUpperCase();
+rocker1.length();
+
+
+
+
+
+
+
+
+
