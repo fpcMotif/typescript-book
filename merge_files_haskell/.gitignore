@@ -1,0 +1,15 @@
+# Cabal build artifacts
+dist-newstyle/
+
+# Haskell temporary/editor files
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+.ghc.environment.*
+.hie/ 
