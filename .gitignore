@@ -24,12 +24,12 @@ _book
 *.pdf
 
 # Rust build artifacts
-/target/
+*/target/
 
 
 
 # Cabal build artifacts
-dist-newstyle/
+*/dist-newstyle/
 
 # Ignore lock file as requested (usually committed for applications)
 /Cargo.lock 
