@@ -22,3 +22,27 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# Rust build artifacts
+/target/
+
+
+
+# Cabal build artifacts
+dist-newstyle/
+
+# Ignore lock file as requested (usually committed for applications)
+/Cargo.lock 
+
+# Haskell temporary/editor files
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+.ghc.environment.*
+.hie/ 
